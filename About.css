@@ -1,0 +1,214 @@
+
+
+.container1 {
+    /* The image used */
+        background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("./images/aboutUs.png");
+        height: 80%;
+        background-position: center;
+        background-size: cover;
+        position:relative;
+        overflow-x:hidden;
+        color: white;
+  }
+  .row{
+      margin-bottom:30px;
+  }
+  .container2 {
+    /* The image used */
+        /* max-height: 500px; */
+        background-position: center;
+    background-size: cover;
+      position:relative;
+      overflow-x:hidden;
+      font-family: 'PT Sans Narrow', sans-serif;
+      display:flex;
+      font-size:20px;
+      font-weight: 10px;
+  }
+  .container3 {
+    /* The image used */
+        background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("./images/our_team.png");
+        height: 80%;
+        background-position: center;
+        background-size: cover;
+      position:relative;
+      overflow-x:hidden;
+      color: white;
+  }
+  .container4{
+  margin-bottom:50px;
+  margin-top: 50px;
+  }
+  .content-section{
+      float:left;
+      width:55%;
+  }
+  .image-section{
+      float:right;
+      width:40%;
+      padding-right: 25px;
+  }
+  .image-secton img{
+      width:100%;
+      height: auto;
+      padding:20px;
+      margin-top: 130px;
+      
+  }
+  #heading{
+      padding: 10px;
+      /* top right bottom left*/
+      text-align:center;
+      margin:150px 130px 100px 130px;
+  /*	text-transform: uppercase;*/
+  }
+  #heading a{
+      color:white;
+      text-decoration: none;
+      font-size: 55px;
+  }
+  #heading:hover a{
+      font-size:59px;
+      transition-duration: 0.3s ease;
+      transition-timing-function: ease-in-out;
+  }
+  
+  #para{
+      font-size:18px;
+      padding: 30px 50px 30px 50px;
+  /*	text-decoration:none;*/
+      font-family:sans-serif;
+      line-height: 1.5;
+  }
+  #para quote{
+  /*	font-size:25px;*/
+      font-family:cursive;
+  }
+  #para p{
+      padding:2px;
+  }
+  .btn {
+      border: none;
+      color: white;
+      padding: 14px 30px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin:5px 0 0 250px;
+      transition-duration: 0.4s;
+      cursor: pointer;
+      border-radius:10px;
+      font-weight:bold;
+  }
+  
+  .btn {
+    background-color: olivedrab; 
+    color: white; 
+    border: 2px solid black;
+    padding:auto;
+  }
+  .btn a{
+      color: white; 
+      text-decoration:none;
+      font-family: sans-serif;	
+  }
+  .btn:hover a{
+      text-decoration:none;
+  /*	font-size:17px;*/
+      color: black;
+      font-weight: bold;
+  }
+  
+  #btn{
+      position:relative;
+      float:right;
+      margin-left: 30px;
+  }
+  
+  
+      .team-style1 {
+          position: relative;
+      }
+      .team-style1 .team-img {
+          position: relative;
+          border-radius: 0.25rem;
+          overflow: hidden;
+          border: 1px solid rgba(0, 0, 0, 0.09);
+          text-align: center;
+      }
+      .team-style1 .team-img img {
+          display: inline-block;
+      }
+      .team-style1 .team-social-icon {
+          position: absolute;
+          top: 0;
+          overflow: hidden;
+          width: auto;
+          display: block;
+          transition: all 0.3s ease-in-out;
+          z-index: 9;
+      }
+      .team-style1 .team-social-icon ul {
+          list-style: none;
+          padding: 0;
+          transition: all 0.3s ease-in-out;
+          margin: 20px;
+      }
+      .team-style1 .team-social-icon ul li {
+          margin-bottom: 8px;
+      }
+      .team-style1 .team-social-icon ul li:last-child {
+          margin-bottom: 0;
+      }
+      .team-style1 .team-social-icon ul li a {
+          background-color: #fff;
+          color: olivedrab;
+          font-size: 15px;
+          display: inline-block;
+          height: 36px;
+          border-radius: 0.25rem;
+          width: 36px;
+          border: 1px solid rgb(84, 112, 28);
+          line-height: 36px;
+          text-decoration: none;
+          text-align: center;
+          transition: all 0.3s ease 0s;
+      }
+      .team-style1 .team-social-icon ul li a:hover {
+          background: olivedrab;
+          color: #fff;
+          border: 1px solid rgb(84, 112, 28);
+      }
+      .team-style1 .team-info {
+          position: absolute;
+          width: 100%;
+          bottom: 0;
+          padding: 20px;
+          background: olivedrab;
+          text-align: center;
+          border-bottom-right-radius: 0.25rem;
+          border-bottom-left-radius: 0.25rem;
+      }
+      .team-style1 .team-info h6 {
+          display: block;
+          color: #fff;
+          text-transform: capitalize;
+      }
+      .team-style1 .team-info small {
+          display: block;
+          color: #fff;
+      }
+      @media screen and (max-width: 991px) {
+          .team-style1 .team-info {
+              padding: 15px;
+          }
+      }
+      @media screen and (max-width: 575px) {
+          .team-style1 .team-social-icon ul li a {
+              width: 30px;
+              height: 30px;
+              line-height: 30px;
+              font-size: 13px;
+          }
+      }
