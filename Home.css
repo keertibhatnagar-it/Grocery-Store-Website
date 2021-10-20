@@ -360,9 +360,7 @@ position:relative;
   }
 
   /* Social Media Icons */
-  .fa-linkedin, .fa-instagram, .fa-envelope, .fa-facebook,.fa-shopping-cart,
-  .fa-user-circle,
-  .fa-search{
+  .fa-linkedin, .fa-instagram, .fa-envelope, .fa-facebook{
     padding: 14px;
     font-size:20px;
     width: 40px;
@@ -371,6 +369,17 @@ position:relative;
     margin: 5px 2px;
     border-radius: 50%;
   }
+  .fa-shopping-cart,
+  .fa-user-circle,
+  .fa-search{
+    padding: 14px;
+    font-size:30px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
   .fa a{
     text-decoration:none;
   }
